@@ -56,7 +56,11 @@ Say hello:
 
 > What can you do on this computer? Keep it short.
 
-That's your assistant. The folder is its desk.
+Then give the house its rooms:
+
+> Make two folders here: `projects` and `out`.
+
+That's your assistant. The `assistant` folder is its home; `projects` is where each job gets its own room; `out` is where everything it makes ends up.
 
 ---
 
@@ -95,7 +99,11 @@ It remembers. It will remember next week too, as long as you start it in this fo
 - Weak: "help me with my expenses"
 - Strong: "Go through every receipt in the `receipts` folder. Make one spreadsheet: date, shop, what it was, total, VAT. Add a total at the bottom. Save it to `out`."
 
-**Put a copy of your file in the folder** (drag a copy, not the original), then pick one:
+**Put a copy of your file in the `assistant` folder** (drag a copy, not the original). Pick one task below, and start your request with this line so the job gets its own room:
+
+> Make a folder in `projects` for this job, move my file into it, write a short CLAUDE.md in that folder describing the job, and then:
+
+...followed by the task:
 
 **Video**
 Record 30 seconds on your phone, send it to your laptop, put it in the folder.
@@ -238,5 +246,15 @@ Brain (Claude), hands (your computer), memory (CLAUDE.md), a skill, real documen
 - Write down what you do every week. Hand over one task at a time.
 - Every correction ends with "remember that."
 - When something's annoying, ask it: "how could you do this for me automatically?"
-- When you start using Claude Code in other folders, ask it to save the "about me" part of CLAUDE.md to `~/.claude/CLAUDE.md`. Then it knows you everywhere, not just here.
+- The house and its rooms. Claude Code reads the CLAUDE.md in the folder you're in and every folder above it, so a project folder inside `assistant` gets your rules plus its own context:
+  ```
+  assistant/
+    CLAUDE.md          about you, your rules
+    .claude/skills/    your skills
+    out/               everything it makes
+    projects/
+      expenses/        CLAUDE.md about that job
+      client-x/        CLAUDE.md about that client
+  ```
+  Start Claude Code in the house for everyday things, or in a room for project work. Same memory either way.
 - Want it always on, in a menu bar, with phone setup built in? Ken packages these same parts: kencomputer.dev, free and open source.

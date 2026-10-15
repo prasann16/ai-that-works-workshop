@@ -76,15 +76,11 @@ Then give it an undo button:
 
 > Set up git in this folder so I can undo anything you change.
 
-Now make the personal parts follow you everywhere:
-
-> Save the "Who I am" and "How I like things" sections to my personal memory at ~/.claude/CLAUDE.md, so you know me in every folder I open you in.
-
-Test it. Type `/exit`, then `claude` again, then:
+Now test the memory. Type `/exit`, then `claude` again, then:
 
 > What do you know about me?
 
-It remembers. Open Claude Code in any other folder and it still knows you. The project-specific parts stay in this folder's CLAUDE.md.
+It remembers. It will remember next week too, as long as you start it in this folder.
 
 **Two habits that make it feel like an assistant, not a tool:**
 - Start it with `claude -c` to continue your last conversation instead of starting from blank.
@@ -242,4 +238,5 @@ Brain (Claude), hands (your computer), memory (CLAUDE.md), a skill, real documen
 - Write down what you do every week. Hand over one task at a time.
 - Every correction ends with "remember that."
 - When something's annoying, ask it: "how could you do this for me automatically?"
+- When you start using Claude Code in other folders, ask it to save the "about me" part of CLAUDE.md to `~/.claude/CLAUDE.md`. Then it knows you everywhere, not just here.
 - Want it always on, in a menu bar, with phone setup built in? Ken packages these same parts: kencomputer.dev, free and open source.

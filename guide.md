@@ -23,6 +23,7 @@ Drag a **copy** of a real file in. Pick one. Say: **"Make a folder in projects f
 - **Blog post:** a LinkedIn post, three tweets and a newsletter blurb, in my voice.
 - **Contract PDF:** plain-language summary, what I'm committing to, anything risky.
 - **Research:** compare ___, ___ and ___: a table and a one-page PDF with sources.
+- **Website:** build me a one-page personal website from my CLAUDE.md and open it in my browser.
 
 Say what to change. When it's right: **"remember that."** No file? Practice kit: github.com/prasann16/ai-that-works-workshop
 

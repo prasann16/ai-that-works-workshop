@@ -1,6 +1,7 @@
 # AI that works: build your assistant
 
-**Before:** install Claude Code from **claude.com/code** (pick your computer, follow the steps), then type `claude` once to sign in.
+## 0. Install
+Go to **claude.com/code**, pick your computer, follow the steps. Then type `claude` and sign in.
 
 ## 1. A home
 Folder on your Desktop called `assistant`. Open a terminal there. Type `claude`.

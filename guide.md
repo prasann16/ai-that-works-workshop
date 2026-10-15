@@ -16,7 +16,8 @@ Quit (`/exit`), start `claude` again, ask what it knows about you.
 ## 3. Real work
 Drag a **copy** of a real file in. Pick one. Say: **"Make a folder in projects for this job, move my file there, then:"**
 
-- **Video** (30 s from your phone): cut the dead air, add captions, export for LinkedIn.
+- **Video** (30 s from your phone): cut the dead air, add a title, export vertical for Instagram. Use ffmpeg.
+- **Inbox:** connect to my email over IMAP (I'll put an app password in `.env` myself), find last month's invoices and receipts, one spreadsheet: date, who, amount, VAT, business or personal.
 - **Meeting notes:** summary, decisions, action items with owner and date, follow-up email.
 - **Any CSV:** one-page weekly report as a PDF, two charts, the three numbers that changed most.
 - **Receipts:** one expense report: date, shop, what, total, VAT. Total at the bottom.
@@ -28,7 +29,9 @@ Drag a **copy** of a real file in. Pick one. Say: **"Make a folder in projects f
 
 **How to ask:** what you want, where the files are, what done looks like. Stuck? "Ask me questions before you start." Big job? "Show me the plan first."
 
-Say what to change. When it's right: **"remember that."** No file? Practice kit: github.com/prasann16/ai-that-works-workshop
+Say what to change. When it's right: **"remember that."** It may ask to install free tools (ffmpeg, Python): read what it wants, then say yes.
+
+No file? Say: **"Download practice-kit.zip from github.com/prasann16/ai-that-works-workshop and unzip it here."**
 
 ## 4. A skill
 > Turn what we just did into a skill called ___.

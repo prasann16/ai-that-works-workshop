@@ -9,7 +9,7 @@ Folder on your Desktop called `assistant`. Open a terminal there. Type `claude`.
 > Make two folders here: projects and out.
 
 ## 2. Memory
-> Create CLAUDE.md in this folder. Who I am: ___. My work: every week I ___. How I like things: short answers, plain language, ask before anything big. Rules: only work inside this folder, save what you make to `out`, ask before deleting. When I say "remember", add it here.
+> Interview me to write CLAUDE.md in this folder. Ask one question at a time, 8 max: who I am, my work, what eats my week, how I like answers. Then add these rules: only work inside this folder, save what you make to `out`, ask before deleting. When I say "remember", add it here.
 
 Quit (`/exit`), start `claude` again, ask what it knows about you.
 

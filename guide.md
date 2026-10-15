@@ -24,6 +24,9 @@ Drag a **copy** of a real file in. Pick one. Say: **"Make a folder in projects f
 - **Contract PDF:** plain-language summary, what I'm committing to, anything risky.
 - **Research:** compare ___, ___ and ___: a table and a one-page PDF with sources.
 - **Website:** build me a one-page personal website from my CLAUDE.md and open it in my browser.
+- **Brainstorm:** 20 ways to ___, then pick the best three and tell me why.
+
+**How to ask:** what you want, where the files are, what done looks like. Stuck? "Ask me questions before you start." Big job? "Show me the plan first."
 
 Say what to change. When it's right: **"remember that."** No file? Practice kit: github.com/prasann16/ai-that-works-workshop
 

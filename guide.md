@@ -1,7 +1,6 @@
 # AI that works: build your assistant
 
-**Before:** install Claude Code, type `claude` once to sign in.
-Mac/Linux: `curl -fsSL https://claude.ai/install.sh | bash` · Windows: `irm https://claude.ai/install.ps1 | iex`
+**Before:** install Claude Code from **claude.com/code** (pick your computer, follow the steps), then type `claude` once to sign in.
 
 ## 1. A home
 Folder on your Desktop called `assistant`. Open a terminal there. Type `claude`.
@@ -36,7 +35,7 @@ Say what to change. When it's right: **"remember that."** No file? Practice kit:
 ## 6. Your pocket
 Telegram → @BotFather → `/newbot` → copy the code. Then in Claude Code:
 `/plugin install telegram@claude-plugins-official` · `/telegram:configure <code>` · restart with `claude --channels plugin:telegram@claude-plugins-official` · text your bot, pair with `/telegram:access pair <6 letters>`.
-(Needs Bun: `curl -fsSL https://bun.sh/install | bash`. No Bun? Claude app → Remote Control.)
+(Needs Bun, from **bun.sh**. No Bun? Claude app → Remote Control.)
 
 Always-on, lid closed, voice notes: `curl -fsSL https://kencomputer.dev/install | bash`
 

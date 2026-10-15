@@ -76,11 +76,19 @@ Then give it an undo button:
 
 > Set up git in this folder so I can undo anything you change.
 
-Now test the memory. Type `/exit`, then `claude` again, then:
+Now make the personal parts follow you everywhere:
+
+> Save the "Who I am" and "How I like things" sections to my personal memory at ~/.claude/CLAUDE.md, so you know me in every folder I open you in.
+
+Test it. Type `/exit`, then `claude` again, then:
 
 > What do you know about me?
 
-It remembers. It will remember next week too.
+It remembers. Open Claude Code in any other folder and it still knows you. The project-specific parts stay in this folder's CLAUDE.md.
+
+**Two habits that make it feel like an assistant, not a tool:**
+- Start it with `claude -c` to continue your last conversation instead of starting from blank.
+- Start a message with `#` to save something to memory on the spot: `# I like short answers, no bullet points`.
 
 ---
 
